@@ -1,12 +1,15 @@
 # NEATO `sys` API Specification
 
 Written by UsUsStudios July 10th, 2026
+
 Draft 1
+
 Last updated in NEATO version alpha
 
 ---
 
 A NEATO-compliant operating system must expose a global API in `_G.sys` to retrieve system information about the running operating system, computer and system that is not retrievable from the `chip` API.
+
 Below is a list of functions that the `sys` API must expose:
 
 |      name      |                                                                 description                                                                 |         arguments         |             returns             |
